@@ -1,4 +1,4 @@
-🏪 Système de Gestion de Stock Azrou-Sanee
+🏪 Système de Gestion de Stock Azrou-Sani
 🌟 Vue d'ensemble
 > Un système complet de gestion de stock avec interface administrative et client, permettant une gestion efficace des produits, des commandes et des commun
 📦 Fonctionnalités principales
