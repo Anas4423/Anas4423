@@ -1,60 +1,54 @@
-🏪 Système de Gestion de Stock Azrou-Sani
-🌟 Vue d'ensemble
-> Un système complet de gestion de stock avec interface administrative et client, permettant une gestion efficace des produits, des commandes et des commun
-📦 Fonctionnalités principales
-Gestion des produits (ajout, mise à jour, affichage en page d’accueil, etc.)
+# 🏪 Système de Gestion de Stock — Azrou-Sani
 
-Gestion des commandes (multi-statuts, historiques)
+## 🌟 Vue d'ensemble
 
-Messagerie interne entre utilisateurs
+Un système complet de **gestion de stock** avec une interface **administrative** et **client**, permettant une gestion fluide des produits, commandes, et contenu dynamique du site.
 
-Paramétrage complet de la page d’accueil (slides, textes, couleurs, etc.)
+---
 
-Suivi des connexions et des visites
+## 📦 Fonctionnalités principales
 
-Paramètres du site (logo, footer, etc.)
+- 🛍️ **Gestion des produits** : ajout, mise à jour, affichage sur la page d’accueil.
+- 📦 **Gestion des commandes** : suivi multi-statuts, historique.
+- 💬 **Messagerie interne** entre utilisateurs.
+- 🏠 **Personnalisation de la page d’accueil** : slides, textes, couleurs.
+- 👀 **Suivi des connexions et des visites**.
+- ⚙️ **Paramètres du site** : logo, pied de page, informations globales.
 
-🧱 Structure des tables principales
-✅ utilisateurs
-Contient les informations des clients et des administrateurs.
+---
 
-✅ produits
-Stocke les produits en vente, leur prix, quantité, image, etc.
+## 🧱 Structure des Tables Principales
 
-✅ commandes & ligne_commandes
-Gèrent les commandes passées, les produits associés, les statuts, etc.
+| Table                           | Description |
+|--------------------------------|-------------|
+| ✅ `utilisateurs`              | Informations des clients et administrateurs. |
+| ✅ `produits`                  | Stock, prix, quantité, image des produits. |
+| ✅ `commandes` & `ligne_commandes` | Détails des commandes et des articles associés. |
+| ✅ `historique_commandes`      | Historique des statuts de commande. |
+| ✅ `messages`                  | Système de messagerie utilisateur. |
+| ✅ `homepage_settings`, `homepage_slides`, `slider_images` | Contenu dynamique de la page d’accueil. |
+| ✅ `site_settings`, `footer_settings` | Configuration de l’apparence du site. |
+| ✅ `visitor_logs`, `client_connections` | Suivi des visites et connexions. |
 
-✅ historique_commandes
-Historique des changements de statut d’une commande.
+---
 
-✅ messages
-Système de messagerie entre utilisateurs.
+## 🛠️ Architecture Technique
 
-✅ homepage_settings, homepage_slides, slider_images
-Gèrent le contenu dynamique de la page d’accueil.
+- 🔧 **Backend** : PHP (avec PDO)
+- 🗄️ **Base de données** : MySQL
+- 🎨 **Frontend** : HTML5, Bootstrap 5, JavaScript, Font Awesome
+- 🔐 **Sécurité** : Sessions PHP, gestion des rôles
 
-✅ site_settings & footer_settings
-Configuration de l'apparence globale du site et du pied de page.
+---
 
-✅ visitor_logs & client_connections
-Enregistrement des visites et connexions utilisateur.
+## 👨‍💻 Équipe projet
 
-🛠️ Architecture Technique
-💻 Technologies Utilisées
-🔧 Backend: PHP
-🗄️ Base de données: MySQL (via PDO)
-🎨 Frontend:
-HTML5
-Bootstrap 5
-JavaScript
-Font Awesome
-🔐 Sécurité: Sessions PHP
+- **Développé par** : *LKHAYAT Anas* et  *moutawakil asmae *
+- **Encadré par** : *EL HAYYANI Isam*
+- **Entreprise** : *Azrou-Sani*
+- **Année de formation** : *2024 / 2025*
 
+---
 
-Développé par : LKHAYAT Anas
+> ✨ Projet conçu pour offrir un contrôle complet, intuitif et sécurisé de l’ensemble du processus de gestion de stock au sein d’une entreprise.
 
-Encadré par : EL HAYYANI Isam
-
-Entreprise : Azrou Sané
-
-Année de formation : 2024/2025
