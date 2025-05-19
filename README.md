@@ -36,14 +36,14 @@ Un système complet de **gestion de stock** avec une interface **administrative*
 
 - 🔧 **Backend** : PHP (avec PDO)
 - 🗄️ **Base de données** : MySQL
-- 🎨 **Frontend** : HTML5, Bootstrap 5, JavaScript, Font Awesome
+- 🎨 **Frontend** : HTML5, Bootstrap 5, JavaScript
 - 🔐 **Sécurité** : Sessions PHP, gestion des rôles
 
 ---
 
 ## 👨‍💻 Équipe projet
 
-- **Développé par** : *LKHAYAT Anas* et  *moutawakil asmae *
+- **Développé par** : *LKHAYAT Anas* et  *MOTAWAKIL Asmae *
 - **Encadré par** : *EL HAYYANI Isam*
 - **Entreprise** : *Azrou-Sani*
 - **Année de formation** : *2024 / 2025*
